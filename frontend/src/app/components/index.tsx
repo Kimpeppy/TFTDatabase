@@ -1,4 +1,6 @@
+'use client'
 import Link from 'next/link';
+import { useState } from 'react';
 
 
 
@@ -14,7 +16,7 @@ function classNames(...classes: (string | undefined | null | false)[]): string {
 
 export default function Navbar() {
 
-    const [navigation, setNavigation] = React.useState(initialNavigation);
+    const [navigation, setNavigation] = useState(initialNavigation);
 
     const handleLinkClick = (clickedIndex: number) => {
         setNavigation((prevNavigation) =>
