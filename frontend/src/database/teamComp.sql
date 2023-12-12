@@ -1,0 +1,17 @@
+CREATE TABLE teamComps (
+    teamCompID VARCHAR(50) NOT NULL,
+    champion1 VARCHAR(50),
+    champion2 VARCHAR(50),
+    champion3 VARCHAR(50),
+    champion4 VARCHAR(50),
+    champion5 VARCHAR(50),
+    champion6 VARCHAR(50),
+    champion7 VARCHAR(50),
+    champion8 VARCHAR(50),
+    champion9 VARCHAR(50),
+    champion10 VARCHAR(50),
+    champion11 VARCHAR(50),
+    champion12 VARCHAR(50),
+    champion13 VARCHAR(50),
+    champion14 VARCHAR(50),
+);

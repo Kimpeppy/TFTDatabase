@@ -1,0 +1,20 @@
+CREATE TABLE games (
+    gameID VARCHAR(50) NOT NULL,
+    player1ID VARCHAR(50),
+    player2ID VARCHAR(50),
+    player3ID VARCHAR(50),
+    player4ID VARCHAR(50),
+    player5ID VARCHAR(50),
+    player6ID VARCHAR(50),
+    player7ID VARCHAR(50),
+    player8ID VARCHAR(50),
+    teamComp1ID VARCHAR(50),
+    teamComp2ID VARCHAR(50),
+    teamComp3ID VARCHAR(50),
+    teamComp4ID VARCHAR(50),
+    teamComp5ID VARCHAR(50),
+    teamComp6ID VARCHAR(50),
+    teamComp7ID VARCHAR(50),
+    teamComp8ID VARCHAR(50),
+    winnerID VARCHAR(50)
+);
