@@ -38,25 +38,29 @@ INSERT INTO champions (name, cost, origin, className1, className2) VALUES ('Twit
 
 -- Three Cost
 INSERT INTO champions (name, cost, origin, className1, className2) VALUES ('Amumu', 3, 'Emo', 'Guardian', NULL);
-INSERT INTO champions (name, cost, origin, className1, className2) VALUES ('Lux', 3, 'EDM', 'Dazzler', NULL);
+INSERT INTO champions (name, cost, origin, className1, className2) VALUES ('Ekko', 3, 'True Damage', 'Sentinel', 'Spellweaver');
+INSERT INTO champions (name, cost, origin, className1, className2) VALUES ('Lulu', 3, 'Hyperpop', 'Spellweaver', NULL);
+INSERT INTO champions (name, cost, origin, className1, className2) VALUES ('Mordekaiser', 3, 'Pentakill', 'Sentinel', NULL);
 INSERT INTO champions (name, cost, origin, className1, className2) VALUES ('Miss Fortune', 3, 'Jazz', 'Big Shot', NULL);
 INSERT INTO champions (name, cost, origin, className1, className2) VALUES ('Neeko', 3, 'K/DA', 'Guardian', 'Superfan');
 INSERT INTO champions (name, cost, origin, className1, className2) VALUES ('Riven', 3, '8-Bit', 'Edgelord', NULL);
 INSERT INTO champions (name, cost, origin, className1, className2) VALUES ('Samira', 3, 'Country', 'Executioner', NULL);
 INSERT INTO champions (name, cost, origin, className1, className2) VALUES ('Sett', 3, 'Heartsteel', 'Bruiser', 'Mosher');
-INSERT INTO champions (name, cost, origin, className1, className2) VALUES ('Twisted Fate', 3, 'Disco', 'Dazzler', NULL);
 INSERT INTO champions (name, cost, origin, className1, className2) VALUES ('Urgot', 3, 'Country', 'Mosher', NULL);
 INSERT INTO champions (name, cost, origin, className1, className2) VALUES ('Vex', 3, 'Emo', 'Executioner', NULL);
+INSERT INTO champions (name, cost, origin, className1, className2) VALUES ('Yone', 3, 'Heartsteel', 'Crowd Diver', 'Edgelord');
 
 -- Four Cost
 INSERT INTO champions (name, cost, origin, className1, className2) VALUES ('Ahri', 4, 'K/DA', 'Spellweaver', NULL);
 INSERT INTO champions (name, cost, origin, className1, className2) VALUES ('Akali', 4, 'K/DA', 'Executioner', 'BreakOut');
+INSERT INTO champions (name, cost, origin, className1, className2) VALUES ('Akali', 4, 'True Damage', 'Executioner', 'BreakOut');
 INSERT INTO champions (name, cost, origin, className1, className2) VALUES ('Blitzcrank', 4, 'Disco', 'Sentinel', NULL);
 INSERT INTO champions (name, cost, origin, className1, className2) VALUES ('Caitlyn', 4, '8-Bit', 'Rapidfire', NULL);
+INSERT INTO champions (name, cost, origin, className1, className2) VALUES ('Ezreal', 4, 'Heartsteel', 'Big Shot', NULL);
 INSERT INTO champions (name, cost, origin, className1, className2) VALUES ('Karthus', 4, 'Pentakill', 'Executioner', NULL);
 INSERT INTO champions (name, cost, origin, className1, className2) VALUES ('Poppy', 4, 'Emo', 'Mosher', NULL);
-INSERT INTO champions (name, cost, origin, className1, className2) VALUES ('Senna', 4, 'True Damage', 'Rapidfire', NULL);
-INSERT INTO champions (name, cost, origin, className1, className2) VALUES ('Sett', 4, 'Heartsteel', 'Bruiser', 'Mosher');
+INSERT INTO champions (name, cost, origin, className1, className2) VALUES ('Thresh', 4, 'Country', 'Guardian', NULL);
+INSERT INTO champions (name, cost, origin, className1, className2) VALUES ('Twisted Fate', 4, 'Disco', 'Dazzler', NULL);
 INSERT INTO champions (name, cost, origin, className1, className2) VALUES ('Viego', 4, 'Pentakill', 'Edgelord', NULL);
 INSERT INTO champions (name, cost, origin, className1, className2) VALUES ('Zac', 4, 'EDM', 'Bruiser', NULL);
 INSERT INTO champions (name, cost, origin, className1, className2) VALUES ('Zed', 4, 'EDM', 'Crowd Diver', NULL);
