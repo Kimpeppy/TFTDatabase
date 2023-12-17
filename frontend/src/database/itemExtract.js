@@ -20,7 +20,7 @@ connection.connect((err) => {
   connection.end();
 });
 
-function readDragonJson() {
+function readJson() {
   try {
     // Read the JSON file
     const rawData = fs.readFileSync('emblems.json');
@@ -36,7 +36,7 @@ function readDragonJson() {
   }
 }
 
-var items = readDragonJson();
+var items = readJson();
 
 for (const item of items) {
   const apiName = item.apiName;

@@ -1,0 +1,220 @@
+[
+  {
+    "apiName": "TFT9_Item_OrnnHullbreaker",
+    "associatedTraits": [],
+    "composition": [],
+    "desc": "Combat start: If there are no adjacent allies, gain @ExtraHealth@ Health.",
+    "effects": { "AS": 30, "Armor": 35, "ExtraHealth": 600, "MagicResist": 35 },
+    "from": null,
+    "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Ornn_Items/TFT9_OrnnItem_Hullbreaker.tex",
+    "id": null,
+    "incompatibleTraits": [],
+    "name": "Hullcrusher",
+    "unique": false
+  },
+  {
+    "apiName": "TFT4_Item_OrnnMuramana",
+    "associatedTraits": [],
+    "composition": [],
+    "desc": "After casting the first time in combat, gain @ManaRestore@ Mana over @ManaDuration@ seconds.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
+    "effects": {
+      "AD": 0.15000000596046448,
+      "AP": 10,
+      "AS": 15,
+      "Mana": 15,
+      "ManaDuration": 5,
+      "ManaRestore": 120
+    },
+    "from": null,
+    "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Ornn_Items/TFT4_OrnnItem_Marksman_T3_Muramana.tex",
+    "id": null,
+    "incompatibleTraits": [],
+    "name": "Manazane",
+    "unique": true
+  },
+  {
+    "apiName": "TFT9_Item_OrnnTrickstersGlass",
+    "associatedTraits": [],
+    "composition": [],
+    "desc": "Summon a clone with @HealthPercent@% max Health and +@ManaIncrease*100@% max Mana. You cannot equip items to the clone.<br><br><tftitemrules>The clone benefits from active traits</tftitemrules><br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules><br>",
+    "effects": {
+      "AS": 10,
+      "Armor": 10,
+      "CritChance": 15,
+      "HealthPercent": 70,
+      "MagicResist": 10,
+      "ManaIncrease": 0.30000001192092896
+    },
+    "from": null,
+    "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Ornn_Items/TFT9_OrnnItem_TrickstersGlass.tex",
+    "id": null,
+    "incompatibleTraits": [],
+    "name": "Trickster's Glass",
+    "unique": true
+  },
+  {
+    "apiName": "TFT4_Item_OrnnAnimaVisage",
+    "associatedTraits": [],
+    "composition": [],
+    "desc": "Heal @PercentHealthRegen@% max Health every second.",
+    "effects": { "Health": 450, "MagicResist": 25, "PercentHealthRegen": 2.5 },
+    "from": null,
+    "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Ornn_Items/TFT4_OrnnItem_Tank_T3_SpiritVisage.tex",
+    "id": null,
+    "incompatibleTraits": [],
+    "name": "Anima Visage",
+    "unique": false
+  },
+
+  {
+    "apiName": "TFT4_Item_OrnnEternalWinter",
+    "associatedTraits": [],
+    "composition": [],
+    "desc": "Enemies who damage the holder are @AttackSpeedSlowPercent@% <TFTKeyword>Chilled</TFTKeyword> for @SlowDuration@ seconds. After @NumApplications@ <TFTKeyword>Chills</TFTKeyword> from this item, the attacker is <TFTKeyword>Stunned</TFTKeyword> instead (Cooldown: @FreezeCooldown@ seconds).<br><br><tftitemrules>[Unique - only 1 per champion]<br><tftbold>Chill</tftbold>: reduce Attack Speed<br><tftbold>Stun</tftbold>: cannot move, attack, or cast Abilities</tftitemrules>",
+    "effects": {
+      "Armor": 20,
+      "AttackSpeedSlowPercent": 20,
+      "FreezeCooldown": 15,
+      "FreezeDuration": 1.5,
+      "Health": 200,
+      "NumApplications": 7,
+      "SlowDuration": 1.5
+    },
+    "from": null,
+    "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Ornn_Items/TFT4_OrnnItem_Mage_T4_Everfrost.tex",
+    "id": null,
+    "incompatibleTraits": [],
+    "name": "Eternal Winter",
+    "unique": true
+  },
+  {
+    "apiName": "TFT4_Item_OrnnZhonyasParadox",
+    "associatedTraits": [],
+    "composition": [],
+    "desc": "Once per combat at @PercentHealthThreshold@% Health, become invulnerable and untargetable for @InvulnDuration@ seconds.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
+    "effects": {
+      "AP": 45,
+      "Armor": 30,
+      "InvulnDuration": 3,
+      "MagicResist": 30,
+      "PercentHealthThreshold": 40
+    },
+    "from": null,
+    "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Ornn_Items/TFT4_OrnnItem_Mage_T3_ZhonyasHourglass.tex",
+    "id": null,
+    "incompatibleTraits": [],
+    "name": "Zhonya's Paradox",
+    "unique": true
+  },
+  {
+    "apiName": "TFT9_Item_OrnnHorizonFocus",
+    "associatedTraits": [],
+    "composition": [],
+    "desc": "Gain %i:scaleRange% @HexRangeIncrease@ Attack Range. Damage is increased by @PercentDamageIncrease@% for each hex between the holder and their target.",
+    "effects": {
+      "AD": 0.15000000596046448,
+      "AP": 15,
+      "AS": 15,
+      "HexRangeIncrease": 1,
+      "PercentDamageIncrease": 9
+    },
+    "from": null,
+    "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Ornn_Items/TFT9_OrnnItem_SnipersFocus.tex",
+    "id": null,
+    "incompatibleTraits": [],
+    "name": "Sniper's Focus",
+    "unique": false
+  },
+  {
+    "apiName": "TFT4_Item_OrnnDeathsDefiance",
+    "associatedTraits": [],
+    "composition": [],
+    "desc": "Gain @BaseHeal@% <TFTKeyword>Omnivamp</TFTKeyword>. @IgnorePainPercent@% of the damage the holder receives is instead dealt over @BleedDuration@ seconds as non-lethal damage.<br><br><tftitemrules>[Unique - only 1 per champion]<br><tftbold>Omnivamp</tftbold>: heal for some of damage dealt</tftitemrules>",
+    "effects": {
+      "AD": 0.10000000149011612,
+      "AS": 25,
+      "Armor": 30,
+      "BaseHeal": 25,
+      "BleedDuration": 4,
+      "IgnorePainPercent": 50
+    },
+    "from": null,
+    "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Ornn_Items/TFT4_OrnnItem_Fighter_T3_DeathsDance.tex",
+    "id": null,
+    "incompatibleTraits": [],
+    "name": "Death's Defiance",
+    "unique": true
+  },
+  {
+    "apiName": "TFT9_Item_OrnnPrototypeForge",
+    "associatedTraits": [],
+    "composition": [],
+    "desc": "Each round: Equip 2 random Ornn Artifacts.<br><br><tftitemrules>[Consumes 3 item slots.]</tftitemrules>",
+    "effects": {},
+    "from": null,
+    "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Ornn_Items/TFT9_OrnnItem_BlacksmithsGloves.tex",
+    "id": null,
+    "incompatibleTraits": [],
+    "name": "Blacksmith's Gloves",
+    "unique": false
+  },
+  {
+    "apiName": "TFT4_Item_OrnnInfinityForce",
+    "associatedTraits": [],
+    "composition": [],
+    "desc": "<tftitemrules>Tons of EVERYTHING!</tftitemrules>",
+    "effects": {
+      "AD": 0.25,
+      "AP": 25,
+      "AS": 25,
+      "Armor": 25,
+      "Health": 250,
+      "MagicResist": 25,
+      "Mana": 25
+    },
+    "from": null,
+    "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Ornn_Items/TFT4_OrnnItem_Fighter_T4_TrinityForce.tex",
+    "id": null,
+    "incompatibleTraits": [],
+    "name": "Infinity Force",
+    "unique": false
+  },
+  {
+    "apiName": "TFT9_Item_OrnnDeathfireGrasp",
+    "associatedTraits": [],
+    "composition": [],
+    "desc": "Combat start: Blast the current target for @PercentMaxHealthDamage*100@% of their max Health as magic damage.<br><br>For the next @Duration@ seconds, deal @BaseAmp*100@% more damage. Damage dealt to the blasted target is increased to @BonusAmp*100@%.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
+    "effects": {
+      "AP": 45,
+      "BaseAmp": 0.25,
+      "BonusAmp": 0.3499999940395355,
+      "Duration": 10,
+      "Mana": 15,
+      "PercentMaxHealthDamage": 0.20000000298023224
+    },
+    "from": null,
+    "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Ornn_Items/TFT9_OrnnItem_DeathfireGrasp.tex",
+    "id": null,
+    "incompatibleTraits": [],
+    "name": "Deathfire Grasp",
+    "unique": true
+  },
+  {
+    "apiName": "TFT4_Item_OrnnTheCollector",
+    "associatedTraits": [],
+    "composition": [],
+    "desc": "Attacks and Abilities execute enemies below @ExecutePercent@% of their maximum Health. Executions have a @GoldChance@% chance to drop %i:goldCoins% 1 gold.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
+    "effects": {
+      "AD": 0.20000000298023224,
+      "CritChance": 30,
+      "ExecutePercent": 12,
+      "GoldChance": 40
+    },
+    "from": null,
+    "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Ornn_Items/TFT4_OrnnItem_Marksman_T3_TheCollector.tex",
+    "id": null,
+    "incompatibleTraits": [],
+    "name": "Gold Collector",
+    "unique": true
+  }
+]

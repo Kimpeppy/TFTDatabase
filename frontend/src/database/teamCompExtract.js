@@ -1,11 +1,11 @@
-//const mysql = require("mysql2");
+const mysql = require("mysql");
 const fs = require('fs');
 
 const connection = mysql.createConnection({
-  host: "3306",
-  user: "root@localhost",
+  host: "localhost",
+  user: "root",
   password: "Sugar129!!",
-  database: "tft_Database",
+  database: "tft_database",
 });
 
 // Connect to MySQL
